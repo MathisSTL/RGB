@@ -2,7 +2,7 @@ function validateAnswer() {
     var userInput = document.getElementById("userInput").value;
     var message = document.getElementById("message");
     
-    if (userInput.trim().toLowerCase() === "onze") {
+    if (userInput.trim().toLowerCase() === "255137249") {
         message.innerHTML = '<a href="https://mathisstl.github.io/IceBlocksTTN/" target="_blank">https://mathisstl.github.io/IceBlocksTTN/</a>';
         message.style.color = "green";
     } else {
