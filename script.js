@@ -3,7 +3,7 @@ function validateAnswer() {
     var message = document.getElementById("message");
     
     if (userInput.trim().toLowerCase() === "255137249") {
-        message.innerHTML = '<a href="https://mathisstl.github.io/IceBlocksTTN/" target="_blank">https://mathisstl.github.io/IceBlocksTTN/</a>';
+        message.textContent = "4";
         message.style.color = "green";
     } else {
         message.textContent = "Essayez encore";
